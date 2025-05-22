@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blue Mobile Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f0f8ff;
+      color: #003f7f;
+    }
+
+    header {
+      background-color: #0070f3;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #005bb5;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 0.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 1rem;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .product-card {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      width: 200px;
+      text-align: center;
+      padding: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .buy-button {
+      background-color: #0070f3;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .buy-button:hover {
+      background-color: #005bb5;
+    }
+
+    footer {
+      background-color: #003f7f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Blue Mobile Store</h1>
+    <p>Your one-stop shop for smartphones</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Cart</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h2>Our Phones</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x150" alt="Phone 1">
+        <h3>Phone Model A</h3>
+        <p>$499</p>
+        <button class="buy-button">Buy Now</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x150" alt="Phone 2">
+        <h3>Phone Model B</h3>
+        <p>$699</p>
+        <button class="buy-button">Buy Now</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x150" alt="Phone 3">
+        <h3>Phone Model C</h3>
+        <p>$899</p>
+        <button class="buy-button">Buy Now</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Blue Mobile Store. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
